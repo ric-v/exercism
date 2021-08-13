@@ -22,6 +22,7 @@ jobs:
       run: |
         ls -al
         cd go/
+        ls -al
         go build -v ./...
 
     - name: Test
