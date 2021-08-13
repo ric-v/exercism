@@ -23,7 +23,7 @@ jobs:
         ls -al
         cd go/
         ls -al
-        go build -v **/*
+        go build -v **/*.go
 
     - name: Test
       run: |
