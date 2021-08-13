@@ -1,7 +1,9 @@
 package space
 
+// Planet as type
 type Planet string
 
+// Age calculates the age based on selected planet type
 func Age(seconds float64, planet Planet) (age float64) {
 
 	const earthAgeSec = 31557600
