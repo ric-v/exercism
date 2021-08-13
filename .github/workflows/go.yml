@@ -21,7 +21,7 @@ jobs:
     - name: Build
       run: |
         cd go/
-        go mod init
+        go mod init github.com/ric-v/exercism-workouts
         go build -v ./...
 
     - name: Test
