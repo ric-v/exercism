@@ -1,6 +1,7 @@
 package triangle
 
 import (
+	"fmt"
 	"math"
 	"testing"
 )
@@ -77,6 +78,7 @@ func TestKindsNotEqual(t *testing.T) {
 func TestKind(t *testing.T) {
 	for _, test := range testData {
 		got := KindFromSides(test.a, test.b, test.c)
+		fmt.Println(test.a, test.b, test.c, got, test.want)
 		if got != test.want {
 			t.Fatalf("Triangle with sides, %g, %g, %g = %v, want %v",
 				test.a, test.b, test.c, got, test.want)

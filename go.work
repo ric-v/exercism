@@ -1,0 +1,18 @@
+go 1.19
+
+use (
+	./go/acronym
+	./go/anagram
+	./go/bob
+	./go/gigasecond
+	./go/hamming
+	./go/hello-world
+	./go/isogram
+	./go/leap
+	./go/pangram
+	./go/proverb
+	./go/reverse-string
+	./go/space-age
+	./go/triangle
+	./go/two-fer
+)

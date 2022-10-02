@@ -5,11 +5,50 @@
 // https://golang.org/doc/effective_go.html#commentary
 package bob
 
+import "strings"
+
 // Hey should have a comment documenting it.
 func Hey(remark string) string {
-	// Write some code here to pass the test suite.
-	// Then remove all the stock comments.
-	// They're here to help you get started but they only clutter a finished solution.
-	// If you leave them in, reviewers may protest!
-	return ""
+
+	remark = strings.TrimSpace(remark)
+
+	if remark == "" {
+		return "Fine. Be that way!"
+	}
+
+	if isShoutingQuestion(remark) {
+		return "Calm down, I know what I'm doing!"
+	}
+
+	if isShouting(remark) {
+		return "Whoa, chill out!"
+	}
+
+	if isQuestion(remark) {
+		return "Sure."
+	}
+
+	return "Whatever."
+}
+
+func isShoutingQuestion(remark string) bool {
+	return isShouting(remark) && isQuestion(remark)
+}
+
+func isShouting(remark string) (yelling bool) {
+	var letters = 0
+	var upperLetters = 0
+	for _, c := range remark {
+		if c >= 'A' && c <= 'Z' {
+			upperLetters++
+		}
+		if (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') {
+			letters++
+		}
+	}
+	return letters > 0 && upperLetters == letters
+}
+
+func isQuestion(remark string) bool {
+	return strings.HasSuffix(remark, "?")
 }
