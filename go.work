@@ -3,16 +3,29 @@ go 1.19
 use (
 	./go/acronym
 	./go/anagram
+	./go/annalyns-infiltration
+	./go/bird-watcher
+	./go/blackjack
 	./go/bob
+	./go/card-tricks
+	./go/cars-assemble
 	./go/gigasecond
 	./go/hamming
 	./go/hello-world
 	./go/isogram
+	./go/lasagna
+	./go/lasagna-master
 	./go/leap
+	./go/need-for-speed
 	./go/pangram
+	./go/party-robot
 	./go/proverb
 	./go/reverse-string
 	./go/space-age
+	./go/strain
 	./go/triangle
 	./go/two-fer
+	./go/vehicle-purchase
+	./go/weather-forecast
+	./go/welcome-to-tech-palace
 )
