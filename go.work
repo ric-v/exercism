@@ -7,15 +7,22 @@ use (
 	./go/bird-watcher
 	./go/blackjack
 	./go/bob
+	./go/booking-up-for-beauty
 	./go/card-tricks
 	./go/cars-assemble
+	./go/chessboard
+	./go/election-day
+	./go/elons-toys
 	./go/gigasecond
+	./go/gross-store
 	./go/hamming
 	./go/hello-world
+	./go/interest-is-interesting
 	./go/isogram
 	./go/lasagna
 	./go/lasagna-master
 	./go/leap
+	./go/logs-logs-logs
 	./go/need-for-speed
 	./go/pangram
 	./go/party-robot
