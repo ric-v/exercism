@@ -30,6 +30,7 @@ use (
 	./go/reverse-string
 	./go/space-age
 	./go/strain
+	./go/the-farm
 	./go/triangle
 	./go/two-fer
 	./go/vehicle-purchase
