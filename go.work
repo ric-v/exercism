@@ -3,6 +3,7 @@ go 1.19
 use (
 	./go/acronym
 	./go/anagram
+	./go/animal-magic
 	./go/annalyns-infiltration
 	./go/bird-watcher
 	./go/blackjack
