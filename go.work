@@ -11,6 +11,7 @@ use (
 	./go/booking-up-for-beauty
 	./go/card-tricks
 	./go/cars-assemble
+	./go/census
 	./go/chessboard
 	./go/election-day
 	./go/elons-toys
