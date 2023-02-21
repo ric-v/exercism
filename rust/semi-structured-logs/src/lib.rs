@@ -1,10 +1,7 @@
 // This stub file contains items that aren't used yet; feel free to remove this module attribute
 // to enable stricter warnings.
-#![allow(unused)]
-
-use std::char::ToLowercase;
 use std::fmt;
-use std::fmt::{Display, Formatter, write};
+use std::fmt::Formatter;
 
 /// various log levels
 #[derive(Clone, PartialEq, Eq, Debug)]

@@ -26,11 +26,14 @@ use (
 	./go/lasagna-master
 	./go/leap
 	./go/logs-logs-logs
+	./go/meteorology
 	./go/need-for-speed
 	./go/pangram
+	./go/parsing-log-files
 	./go/party-robot
 	./go/proverb
 	./go/reverse-string
+	./go/sorting-room
 	./go/space-age
 	./go/strain
 	./go/the-farm
