@@ -14,6 +14,7 @@ use (
 	./go/cars-assemble
 	./go/census
 	./go/chessboard
+	./go/difference-of-squares
 	./go/election-day
 	./go/elons-toys
 	./go/expenses
