@@ -33,7 +33,10 @@ use (
 	./go/parsing-log-files
 	./go/party-robot
 	./go/proverb
+	./go/raindrops
 	./go/reverse-string
+	./go/roman-numerals
+	./go/scrabble-score
 	./go/sorting-room
 	./go/space-age
 	./go/strain
