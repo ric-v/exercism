@@ -16,6 +16,7 @@ use (
 	./go/chessboard
 	./go/election-day
 	./go/elons-toys
+	./go/expenses
 	./go/gigasecond
 	./go/gross-store
 	./go/hamming
