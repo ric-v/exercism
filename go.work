@@ -14,11 +14,13 @@ use (
 	./go/cars-assemble
 	./go/census
 	./go/chessboard
+	./go/clock
 	./go/difference-of-squares
 	./go/election-day
 	./go/elons-toys
 	./go/expenses
 	./go/gigasecond
+	./go/grains
 	./go/gross-store
 	./go/hamming
 	./go/hello-world
@@ -28,6 +30,7 @@ use (
 	./go/lasagna-master
 	./go/leap
 	./go/logs-logs-logs
+	./go/luhn
 	./go/meteorology
 	./go/need-for-speed
 	./go/pangram
