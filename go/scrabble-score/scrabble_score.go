@@ -1,7 +1,6 @@
 package scrabble
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -25,6 +24,5 @@ func Score(word string) (output int) {
 			output += 10
 		}
 	}
-	fmt.Println(output)
 	return
 }

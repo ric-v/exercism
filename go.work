@@ -15,6 +15,7 @@ use (
 	./go/census
 	./go/chessboard
 	./go/clock
+	./go/collatz-conjecture
 	./go/difference-of-squares
 	./go/election-day
 	./go/elons-toys
@@ -38,6 +39,7 @@ use (
 	./go/party-robot
 	./go/proverb
 	./go/raindrops
+	./go/resistor-color
 	./go/reverse-string
 	./go/roman-numerals
 	./go/scrabble-score
